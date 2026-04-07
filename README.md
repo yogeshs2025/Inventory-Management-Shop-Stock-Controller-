@@ -38,7 +38,7 @@ chcp 65001
 
 ### Compile the code
 ```bash
-g++ main.cpp -o app  // --> compiling the code
+g++ -std=c++17 main.cpp -o app
 ```
 
 ### Run the program
