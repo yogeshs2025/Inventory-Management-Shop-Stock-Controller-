@@ -42,7 +42,7 @@ g++ main.cpp -o inventory
 
 ---
 
-## 🌐 WebAssembly (Optional)
+## 🌐 WebAssembly
 The project was also prepared for WebAssembly compilation using Emscripten.
 
 ```bash
