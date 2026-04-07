@@ -30,10 +30,14 @@ The system also uses file handling to store data permanently.
 
 ## ▶️ How to Run
 
+### UTF-8 
+UTF-8 allows the terminal to properly display: Special characters (₹, €, ✓, etc.),Unicode symbols,ANSI colors
+```bash
+chcp 65001
+```
+
 ### Compile the code
 ```bash
-chcp 65001  // ---> UTF-8 allows the terminal to properly display: Special characters (₹, €, ✓, etc.),Unicode symbols,ANSI colors
-
 g++ main.cpp -o app  // --> compiling the code
 ```
 
