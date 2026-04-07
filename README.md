@@ -32,12 +32,14 @@ The system also uses file handling to store data permanently.
 
 ### Compile the code
 ```bash
-g++ main.cpp -o inventory
+chcp 65001  // ---> UTF-8 allows the terminal to properly display: Special characters (₹, €, ✓, etc.),Unicode symbols,ANSI colors
+
+g++ main.cpp -o app  // --> compiling the code
 ```
 
 ### Run the program
 ```bash
-./inventory
+./app
 ```
 
 ---
