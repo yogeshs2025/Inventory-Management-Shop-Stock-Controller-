@@ -1,3 +1,8 @@
+/*
+Project Title: Inventory Management – “Shop Stock Controller”
+Student Name: Yogesh S
+Register No: 25BCE1650
+*/
 
 #include <iostream>
 #include <fstream>
